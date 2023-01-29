@@ -1,0 +1,138 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    border-radius: 50%;
+}
+
+a{
+    margin:20px; 
+    padding: 10px; 
+}
+
+a:link { /* unvisited link */
+    color: black;
+    text-decoration: none;
+}
+
+a:visited { /* page you already reached */
+    color: black; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: purple;
+    text-decoration: none;
+}
+
+a:active {
+    color: purple;
+    text-decoration: none; 
+}
+
+ul{
+    list-style-type: "-  "; 
+}
+
+li{
+    font-size: 20px;
+}
+
+.row{
+    display: flex;
+}
+.know h1 {
+    color: grey; 
+}
+.column {
+    flex: left;
+    padding: 10px;
+    margin: 50px;
+}
+
+div.gettoknow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    border-right: 1px solid grey;
+    width: 25%;
+}
+
+div.information{
+    width: 75%;
+    margin: 20px;
+}
+
+div.information h1 {
+    color:grey; 
+}
+
+div.information p{
+    font-size: 18px;
+}
+progress{
+    width:50%;
+    height: 40px;
+}
+label {
+    font-size: 20px;
+}
+
+div.prog p{
+    font-size: 20px;
+}
+
+div.gettoknow p{
+    color: purple;  
+    font-weight: bold;
+    font-size: smaller; 
+}
+
+div.gettoknow h2{
+    color: grey;
+    font-size: large;
+}
+
+div.pad p{
+    position: relative; 
+    top: 70px;
+    color: grey;
+}
+
+div.pad a{
+    color: purple;
+}
+
+div.sidebar{
+    text-align: center; 
+    background-color: rgb(240, 240, 240);
+    margin: 5px; 
+    border-top: 5px solid purple; 
+    padding: 10px;
+    color: black; 
+    flex: 1;
+
+}
+
+div.gap{
+    margin: 30px;
+    padding: 30px;
+    text-decoration: grey;
+}
+
+div.know p{
+    font-size: 20px;
+} 
+
+td{
+    font-size: 20px;
+}
+div.copyright{
+    background-image: linear-gradient(white,grey); 
+    text-align: center; 
+    padding: 8px;
+    position: fixed;
+    bottom: 0px; 
+    width:100%;
+}
