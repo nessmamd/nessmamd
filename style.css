@@ -115,6 +115,10 @@ div.sidebar{
 
 }
 
+.menu_bar a.active {
+    color: #3e03ab;
+    text-decoration: none;
+}
 div.gap{
     margin: 30px;
     padding: 30px;
